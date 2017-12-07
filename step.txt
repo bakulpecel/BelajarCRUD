@@ -1,0 +1,11 @@
+1. command `composer create-project --prefer-dist laravel/laravel namaproject`
+2. setting .env
+3. php artisan storage:link
+4. Setting di config/flysystem.php => default change `public`
+3. command generate CRUD `php artisan make:model Video -m -c -r`
+4. composer require jeroennoten/laravel-adminlte
+5. php artisan vendor:publish --provider="JeroenNoten\LaravelAdminLte\ServiceProvider" --tag=assets
+6. setting migration database/migrations/
+7. php artisan migrate:fresh
+8. setting fillable model di app/
+9. 

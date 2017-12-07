@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('videos', 'VideoController@index')->name('videos.index');
+Route::get('videos/create', 'VideoController@create')->name('videos.create');
+Route::post('videos', 'VideoController@store')->name('videos.store');
